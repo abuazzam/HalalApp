@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.SearchView
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         recyeler_view.apply {
             var mLayoutManager = LinearLayoutManager(this@MainActivity)
-            layoutManager = mLayoutManager
+            layoutManager = mLayoutManager as RecyclerView.LayoutManager?
             addItemDecoration(DividerItemDecoration(context, mLayoutManager.orientation))
             adapter = mAdapter
         }
