@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HalalApp</string>
+    <string name="cari_produk">Cari Produk</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="nomor_sertifikat">Nomor Sertifikat</string>
+    <string name="produsen">Produsen</string>
+    <string name="berkalu_hingga">Berkalu Hingga</string>
+</resources>
